@@ -1,0 +1,2 @@
+levels.adb:7:13: medium: overflow check might fail (e.g. when n = Integer'Last) [possible explanation: subprogram at levels.ads:4 should mention n in a precondition][#0]
+levels.adb:7:24: medium: overflow check might fail (e.g. when n = 0 and s = Integer'Last) [possible explanation: subprogram at levels.ads:4 should mention s in a precondition][#1]

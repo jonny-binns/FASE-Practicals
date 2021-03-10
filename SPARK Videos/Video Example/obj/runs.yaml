@@ -1,0 +1,270 @@
+'2021-03-10T17:28:34.762000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: full checking of SPARK legality rules ...
+
+    levels.adb:7:23: warning: "s" may be referenced before it has a value
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video
+    Example\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:28:34.762000'
+'2021-03-10T17:28:53.917000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: full checking of SPARK legality rules ...
+
+    levels.adb:7:23: warning: "s" may be referenced before it has a value
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video
+    Example\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:28:53.917000'
+'2021-03-10T17:30:31.246000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    levels.ads:5:04: parameter "n" is missing from output dependence list
+
+    levels.ads:5:22: write-only parameter "s" cannot appear as input in dependence
+    relation
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:30:31.246000'
+'2021-03-10T17:31:09.624000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    levels.ads:5:04: parameter "n" is missing from output dependence list
+
+    levels.ads:5:22: write-only parameter "s" cannot appear as input in dependence
+    relation
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:31:09.624000'
+'2021-03-10T17:32:19.953000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    levels.ads:5:04: parameter "n" is missing from output dependence list
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:32:19.953000'
+'2021-03-10T17:32:57.793000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    levels.ads:5:24: medium: incorrect dependency "s => n"[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video
+    Example\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:32:57.793000'
+'2021-03-10T17:33:38.195000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    levels.ads:5:04: parameter "s" is missing from input dependence list
+
+    levels.ads:5:04: add "null => s" dependency to ignore this input
+
+    levels.ads:5:21: nested dependency relations not allowed
+
+    levels.ads:5:33: missing ")"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:33:38.195000'
+'2021-03-10T17:34:03.136000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video
+    Example\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:34:03.136000'
+'2021-03-10T17:34:52.642000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    levels.adb:7:13: medium: overflow check might fail (e.g. when n = Integer''Last)
+    [possible explanation: subprogram at levels.ads:4 should mention n in a precondition][#0]
+
+    levels.adb:7:24: medium: overflow check might fail (e.g. when n = 0 and s = Integer''Last)
+    [possible explanation: subprogram at levels.ads:4 should mention s in a precondition][#1]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video
+    Example\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:34:52.642000'
+'2021-03-10T17:35:59.510000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    levels.adb:7:24: medium: overflow check might fail (e.g. when n = 0 and s = Integer''Last)
+    [possible explanation: precondition of subprogram at levels.ads:4 should mention
+    s][#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video
+    Example\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:35:59.510000'
+'2021-03-10T17:36:39.199000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video
+    Example\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:36:39.199000'
+'2021-03-10T17:38:36.290000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video
+    Example\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:38:36.290000'
+'2021-03-10T17:39:22.119000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    levels.ads:7:12: medium: postcondition might fail, cannot prove s <= n (e.g. when
+    n = 0 and s = 1)[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video
+    Example\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:39:22.119000'
+'2021-03-10T17:40:36.792000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video
+    Example\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:40:36.792000'
+'2021-03-10T17:41:27.634000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    levels.ads:11:12: medium: postcondition might fail, cannot prove n > 0 (e.g. when
+    n = 0)[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video
+    Example\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:41:27.634000'
+'2021-03-10T17:42:02.859000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video Example\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Video
+    Example\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-10T17:42:02.859000'

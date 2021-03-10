@@ -1,0 +1,1 @@
+levels.ads:7:12: medium: postcondition might fail, cannot prove s <= n (e.g. when n = 0 and s = 1)[#0]

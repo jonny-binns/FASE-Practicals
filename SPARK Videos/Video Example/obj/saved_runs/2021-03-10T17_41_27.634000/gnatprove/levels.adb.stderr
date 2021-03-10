@@ -1,0 +1,1 @@
+levels.ads:11:12: medium: postcondition might fail, cannot prove n > 0 (e.g. when n = 0)[#0]
