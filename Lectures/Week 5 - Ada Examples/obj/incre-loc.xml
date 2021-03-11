@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\incre.gpr</vfs_file>
+    <file_marker column=" 4" line=" 4" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\incre.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\src\increm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 9" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\incre.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\src\increm.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 9" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\incre.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\src\increm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 7" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\incre.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\src\increm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 16" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\incre.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\src\increm.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 16" line=" 8" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\incre.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\src\increm.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

@@ -1,0 +1,1 @@
+pigeonholes.adb:14:21: medium: range check might fail (e.g. when Pos = PH_Index'Last)[#0]

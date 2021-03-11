@@ -1,0 +1,1 @@
+increm.adb:7:16: medium: range check might fail (e.g. when x = 10) [possible explanation: subprogram at increm.ads:5 should mention x in a precondition][#0]

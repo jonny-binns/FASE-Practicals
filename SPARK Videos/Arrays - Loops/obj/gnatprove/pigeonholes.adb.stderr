@@ -1,0 +1,1 @@
+pigeonholes.ads:10:37: medium: postcondition might fail, cannot prove d(j) /=Pigeon (e.g. when J = 18 and d = (PH_Index'Last-2 => Pigeon, others => Dove)) [possible explanation: loop at pigeonholes.adb:12 should mention d in a loop invariant][#0]

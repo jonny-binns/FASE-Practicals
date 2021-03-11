@@ -1,0 +1,111 @@
+'2021-03-11T14:16:59.813000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    increm.adb:7:16: medium: range check might fail (e.g. when x = 10) [possible explanation:
+    subprogram at increm.ads:5 should mention x in a precondition][#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    5 - Ada Examples\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-11T14:16:59.813000'
+'2021-03-11T14:21:26.007000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    5 - Ada Examples\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-11T14:21:26.007000'
+'2021-03-11T14:24:25.962000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    5 - Ada Examples\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-11T14:24:25.962000'
+'2021-03-11T14:25:32.436000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    5 - Ada Examples\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-11T14:25:32.436000'
+'2021-03-11T14:28:06.019000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    increm.ads:8:16: medium: postcondition might fail, cannot prove bad_incr''Result
+    = x + 1 (e.g. when bad_incr''Result = 3 and x = 1)[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    5 - Ada Examples\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-11T14:28:06.019000'
+'2021-03-11T14:28:57.730000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    5 - Ada Examples\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-11T14:28:57.730000'
+'2021-03-11T14:31:06.981000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 5 - Ada Examples\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    5 - Ada Examples\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-11T14:31:06.981000'

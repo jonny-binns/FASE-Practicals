@@ -1,0 +1,1 @@
+increm.ads:8:16: medium: postcondition might fail, cannot prove bad_incr'Result = x + 1 (e.g. when bad_incr'Result = 3 and x = 1)[#0]

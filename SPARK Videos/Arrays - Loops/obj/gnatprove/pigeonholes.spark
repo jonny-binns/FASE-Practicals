@@ -1,0 +1,355 @@
+{
+  "spark": [
+    {
+      "name": "PigeonHoles",
+      "sloc": [
+        {
+          "file": "pigeonholes.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "PigeonHoles.PigeonBeGone",
+      "sloc": [
+        {
+          "file": "pigeonholes.ads",
+          "line": 9
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "PigeonHoles.DoveBeGone",
+      "sloc": [
+        {
+          "file": "pigeonholes.ads",
+          "line": 12
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+    " 1": "C:\\Users\\Jonny\\Documents\\GitHub\\FASE-Practicals\\SPARK Videos\\Arrays\\obj\\gnatprove\\pigeonholes__dovebegone",
+    " 2": "C:\\Users\\Jonny\\Documents\\GitHub\\FASE-Practicals\\SPARK Videos\\Arrays\\obj\\gnatprove\\pigeonholes__pigeonbegone"
+  },
+  "proof": [
+    {
+      "file": "pigeonholes.ads",
+      "line": 13,
+      "col": 12,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "PigeonHoles.DoveBeGone",
+        "sloc": [
+          {
+            "file": "pigeonholes.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 211,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pigeonholes.ads",
+      "check_line": 13,
+      "check_col": 12,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "pigeonholes.adb",
+      "line": 14,
+      "col": 21,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "PigeonHoles.PigeonBeGone",
+        "sloc": [
+          {
+            "file": "pigeonholes.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "pigeonholes.adb",
+      "check_line": 14,
+      "check_col": 21,
+      "session_dir": 2,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "pigeonholes.ads",
+      "line": 10,
+      "col": 37,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "PigeonHoles.PigeonBeGone",
+        "sloc": [
+          {
+            "file": "pigeonholes.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 75,
+              "time": 2.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 141,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "pigeonholes.ads",
+      "check_line": 10,
+      "check_col": 12,
+      "cntexmp": {
+        "pigeonholes.adb": {
+          "previous": {
+          },
+          "current": {
+            "10": [
+              {
+                "name": "Pos",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "12": [
+              {
+                "name": "Pos",
+                "value": "PH_Index'Last",
+                "kind": "variable"
+              },
+              {
+                "name": "d",
+                "value": "(PH_Index'Last-2 => Pigeon, others => Dove)",
+                "kind": "variable"
+              }
+            ],
+            "13": [
+              {
+                "name": "Pos",
+                "value": "PH_Index'Last-1",
+                "kind": "variable"
+              },
+              {
+                "name": "d",
+                "value": "(PH_Index'Last-2 => Pigeon, others => Dove)",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "Pos",
+                "value": "PH_Index'Last",
+                "kind": "variable"
+              }
+            ],
+            "16": [
+              {
+                "name": "d",
+                "value": "(PH_Index'Last-2 => Pigeon, others => Dove)",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "pigeonholes.ads": {
+          "previous": {
+          },
+          "current": {
+            "9": [
+              {
+                "name": "d",
+                "value": "(others => Dove)",
+                "kind": "variable"
+              }
+            ],
+            "10": [
+              {
+                "name": "J",
+                "value": "18",
+                "kind": "variable"
+              },
+              {
+                "name": "d",
+                "value": "(PH_Index'Last-2 => Pigeon, others => Dove)",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 0,
+      "session_dir": 2,
+      "how_proved": "prover"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "PigeonHoles.PigeonBeGone",
+          "sloc": [
+            {
+              "file": "pigeonholes.ads",
+              "line": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "PigeonHoles",
+          "sloc": [
+            {
+              "file": "pigeonholes.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "PigeonHoles.DoveBeGone",
+          "sloc": [
+            {
+              "file": "pigeonholes.ads",
+              "line": 12
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "PigeonHoles.DoveBeGone",
+          "sloc": [
+            {
+              "file": "pigeonholes.ads",
+              "line": 12
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "PigeonHoles.DoveBeGone",
+          "sloc": [
+            {
+              "file": "pigeonholes.ads",
+              "line": 12
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "gnatwhy3.transformations.inline_trivial": 9.37500000000000E-02,
+    "codepeer results": 5.05999996676110E-05,
+    "init_why_sections": 5.51900011487305E-04,
+    "gnatwhy3.transformations.detect_polymorphism": 0.00000000000000E+00,
+    "globals/properties (advanced)": 4.54799999715760E-04,
+    "gnatwhy3.transformations.eliminate_literal": 0.00000000000000E+00,
+    "gnatwhy3.run_vcs": 9.37500000000000E-02,
+    "gnatwhy3.transformations.eliminate_algebraic_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_definition_if_poly": 0.00000000000000E+00,
+    "flow analysis": 1.94530002772808E-03,
+    "gnatwhy3.transformations.simplify_formula": 0.00000000000000E+00,
+    "marking": 2.99800012726337E-04,
+    "translation of standard": 3.85900004766881E-03,
+    "gnatwhy3.register_vcs": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_epsilon": 0.00000000000000E+00,
+    "globals (basic)": 2.60000000707805E-04,
+    "gnatwhy3.schedule_vcs": 0.00000000000000E+00,
+    "gnatwhy3.transformations.prepare_for_counterexmp": 0.00000000000000E+00,
+    "gnatwhy3.save_session": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_inductive": 0.00000000000000E+00,
+    "gnatwhy3.transformations.encoding_smt_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_unused_hypo": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_builtin": 0.00000000000000E+00,
+    "gnatwhy3.transformations.discriminate_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.init": 4.53125000000000E-01
+  }
+}
