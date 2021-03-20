@@ -1,0 +1,5 @@
+slides.ads:21:78: prefix for selection is not a name
+slides.ads:23:09: missing ";"
+slides.ads:24:27: missing ")"
+slides.ads:27:01: "end if;" expected for "if" at line 24
+slides.ads:27:01: "end if;" expected for "if" at line 23

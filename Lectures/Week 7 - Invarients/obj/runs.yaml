@@ -1,0 +1,134 @@
+'2021-03-18T14:13:34.606000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 7 - Invarients\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    slides.ads:16:27: medium: "Slide" must be a Proof_In as it is only used in assertions
+    (SPARK RM 6.1.4(18))[#1]
+
+    slides.ads:16:33: medium: "Utgang" must be a Proof_In as it is only used in assertions
+    (SPARK RM 6.1.4(18))[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    7 - Invarients\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-18T14:13:34.606000'
+'2021-03-18T14:14:10.429000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 7 - Invarients\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    7 - Invarients\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-18T14:14:10.429000'
+'2021-03-18T14:24:45.342000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 7 - Invarients\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    slides.ads:21:78: prefix for selection is not a name
+
+    slides.ads:23:09: missing ";"
+
+    slides.ads:24:27: missing ")"
+
+    slides.ads:27:01: "end if;" expected for "if" at line 24
+
+    slides.ads:27:01: "end if;" expected for "if" at line 23
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-18T14:24:45.342000'
+'2021-03-18T14:26:27.895000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 7 - Invarients\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    slides.ads:24:27: missing ")"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-18T14:26:27.895000'
+'2021-03-18T14:26:38.800000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 7 - Invarients\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    slides.ads:24:73: missing ")"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-18T14:26:38.800000'
+'2021-03-18T14:27:09.004000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 7 - Invarients\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    slides.adb:13:20: warning: unused assignment[#0]
+
+    slides.adb:17:16: medium: range check might fail (e.g. when c = Capacity''Last)[#2]
+
+    slides.ads:21:26: medium: "Utgang" must be a Proof_In as it is only used in assertions
+    (SPARK RM 6.1.4(18))[#1]
+
+    slides.ads:25:28: medium: postcondition might fail, cannot prove c/= 10 (e.g.
+    when c = 10)[#3]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    7 - Invarients\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-18T14:27:09.004000'
+'2021-03-18T14:27:46.996000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 7 - Invarients\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    slides.adb:13:20: warning: unused assignment[#0]
+
+    slides.ads:21:26: medium: "Utgang" must be a Proof_In as it is only used in assertions
+    (SPARK RM 6.1.4(18))[#1]
+
+    slides.ads:25:28: medium: postcondition might fail, cannot prove c/= 10 (e.g.
+    when c = 10)[#2]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    7 - Invarients\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-18T14:27:46.996000'
