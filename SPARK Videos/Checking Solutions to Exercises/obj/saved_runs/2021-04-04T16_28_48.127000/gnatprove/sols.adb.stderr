@@ -1,0 +1,1 @@
+sols.ads:5:18: medium: overflow check might fail (e.g. when n = Integer'First+2)[#0]

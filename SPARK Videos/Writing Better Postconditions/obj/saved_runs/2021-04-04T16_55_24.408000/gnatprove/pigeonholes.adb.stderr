@@ -1,0 +1,1 @@
+pigeonholes.ads:17:14: medium: postcondition might fail, cannot prove CountBirds(d,b) >= CountBirds(d'Old,b)[#0]

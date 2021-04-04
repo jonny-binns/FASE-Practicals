@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Checking Solutions to Exercises\sols.gpr</vfs_file>
+    <file_marker column=" 10" line=" 16" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Checking Solutions to Exercises\sols.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Checking Solutions to Exercises\src\sols.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 13" line=" 5" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Checking Solutions to Exercises\sols.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Checking Solutions to Exercises\src\sols.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

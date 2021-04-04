@@ -1,0 +1,1 @@
+loops.ads:10:39: medium: postcondition might fail, cannot prove s(J) = Nums'last (e.g. when J = 8 and s = (8 => 1, others => Nums'Last)) [possible explanation: loop at loops.adb:7 should mention s in a loop invariant][#0]

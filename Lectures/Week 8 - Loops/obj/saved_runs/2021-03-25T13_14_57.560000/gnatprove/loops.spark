@@ -1,0 +1,251 @@
+{
+  "spark": [
+    {
+      "name": "loops",
+      "sloc": [
+        {
+          "file": "loops.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "loops.Increase",
+      "sloc": [
+        {
+          "file": "loops.ads",
+          "line": 9
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+    " 1": "C:\\Users\\Jonny\\Documents\\GitHub\\FASE-Practicals\\Lectures\\Week 8 - Loops\\obj\\gnatprove\\loops__increase"
+  },
+  "proof": [
+    {
+      "file": "loops.adb",
+      "line": 9,
+      "col": 21,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "loops.Increase",
+        "sloc": [
+          {
+            "file": "loops.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "loops.adb",
+      "check_line": 9,
+      "check_col": 21,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "loops.ads",
+      "line": 10,
+      "col": 39,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "loops.Increase",
+        "sloc": [
+          {
+            "file": "loops.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 78,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 149,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "loops.ads",
+      "check_line": 10,
+      "check_col": 14,
+      "cntexmp": {
+        "loops.adb": {
+          "previous": {
+          },
+          "current": {
+            "5": [
+              {
+                "name": "Pos",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "7": [
+              {
+                "name": "Pos",
+                "value": "10",
+                "kind": "variable"
+              },
+              {
+                "name": "s",
+                "value": "(8 => 1, others => Nums'Last)",
+                "kind": "variable"
+              }
+            ],
+            "8": [
+              {
+                "name": "Pos",
+                "value": "9",
+                "kind": "variable"
+              },
+              {
+                "name": "s",
+                "value": "(8 => 1, others => Nums'Last)",
+                "kind": "variable"
+              }
+            ],
+            "9": [
+              {
+                "name": "Pos",
+                "value": "10",
+                "kind": "variable"
+              }
+            ],
+            "11": [
+              {
+                "name": "s",
+                "value": "(8 => 1, others => Nums'Last)",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "loops.ads": {
+          "previous": {
+          },
+          "current": {
+            "9": [
+              {
+                "name": "s",
+                "value": "(others => Nums'Last)",
+                "kind": "variable"
+              }
+            ],
+            "10": [
+              {
+                "name": "J",
+                "value": "8",
+                "kind": "variable"
+              },
+              {
+                "name": "s",
+                "value": "(8 => 1, others => Nums'Last)",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 0,
+      "session_dir": 1,
+      "how_proved": "prover"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "loops",
+          "sloc": [
+            {
+              "file": "loops.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "loops.Increase",
+          "sloc": [
+            {
+              "file": "loops.ads",
+              "line": 9
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "gnatwhy3.transformations.inline_trivial": 2.96875000000000E-01,
+    "codepeer results": 2.45200004428625E-04,
+    "init_why_sections": 8.45399976242334E-04,
+    "gnatwhy3.transformations.detect_polymorphism": 0.00000000000000E+00,
+    "globals/properties (advanced)": 2.49020010232925E-03,
+    "gnatwhy3.transformations.eliminate_literal": 0.00000000000000E+00,
+    "gnatwhy3.run_vcs": 1.09375000000000E-01,
+    "gnatwhy3.transformations.eliminate_algebraic_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_definition_if_poly": 0.00000000000000E+00,
+    "flow analysis": 3.00660007633269E-03,
+    "gnatwhy3.transformations.simplify_formula": 0.00000000000000E+00,
+    "marking": 2.65400012722239E-04,
+    "translation of standard": 7.24249985069036E-03,
+    "gnatwhy3.register_vcs": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_epsilon": 0.00000000000000E+00,
+    "globals (basic)": 6.56199990771711E-04,
+    "gnatwhy3.schedule_vcs": 0.00000000000000E+00,
+    "gnatwhy3.transformations.prepare_for_counterexmp": 0.00000000000000E+00,
+    "gnatwhy3.save_session": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_inductive": 0.00000000000000E+00,
+    "gnatwhy3.transformations.encoding_smt_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_unused_hypo": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_builtin": 0.00000000000000E+00,
+    "gnatwhy3.transformations.discriminate_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.init": 2.34375000000000E-01
+  }
+}

@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 8 - Loops\loops.gpr
+20210325130326 85edabab84871b334675b60dfaaf4669
+[BOUND OBJECT FILES]
+C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 8 - Loops\obj\loops.o
+C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 8 - Loops\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 8 - Loops\obj\
+-LC:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 8 - Loops\obj\
+-LC:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,175 @@
+'2021-04-04T16:49:31.702000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing Better Postconditions\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    pigeonholes.adb:12:10: incorrect spelling of keyword "pragma"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-04T16:49:31.702000'
+'2021-04-04T16:49:43.367000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing Better Postconditions\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    pigeonholes.ads:3:30: missing ";"
+
+    pigeonholes.ads:14:06: end of file expected
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-04T16:49:43.367000'
+'2021-04-04T16:49:59.511000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing Better Postconditions\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    pigeonholes.ads:7:39: "PigeonHole" is undefined (more references follow)
+
+    pigeonholes.ads:7:39: possible misspelling of "PigeonHoles"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-04T16:49:59.511000'
+'2021-04-04T16:50:31.860000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing Better Postconditions\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    pigeonholes.ads:14:43: medium: postcondition might fail, cannot prove CountBirds''Result
+    = d''length (e.g. when CountBirds''Result = 0)[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing
+    Better Postconditions\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-04T16:50:31.860000'
+'2021-04-04T16:50:59.424000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing Better Postconditions\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing
+    Better Postconditions\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-04T16:50:59.424000'
+'2021-04-04T16:55:24.408000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing Better Postconditions\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    pigeonholes.ads:17:14: medium: postcondition might fail, cannot prove CountBirds(d,b)
+    >= CountBirds(d''Old,b)[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing
+    Better Postconditions\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-04T16:55:24.408000'
+'2021-04-04T16:56:48.191000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing Better Postconditions\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing
+    Better Postconditions\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-04T16:56:48.191000'
+'2021-04-04T16:58:11.321000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing Better Postconditions\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing
+    Better Postconditions\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-04T16:58:11.321000'
+'2021-04-04T16:59:56.362000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing Better Postconditions\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    pigeonholes.ads:17:84: missing ")"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-04T16:59:56.362000'
+'2021-04-04T17:00:07.846000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing Better Postconditions\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    pigeonholes.ads:17:68: medium: postcondition might fail, cannot prove d(I) = d''Old(I)
+    (e.g. when I = 1 and d = (others => Pigeon) and d''Old = (1 => Dove, others =>
+    Pigeon))[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing
+    Better Postconditions\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-04T17:00:07.846000'
+'2021-04-04T17:00:39.305000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing Better Postconditions\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Writing
+    Better Postconditions\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-04T17:00:39.305000'

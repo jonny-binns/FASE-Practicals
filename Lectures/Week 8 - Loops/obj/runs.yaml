@@ -1,0 +1,53 @@
+'2021-03-25T13:14:57.560000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 8 - Loops\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    loops.ads:10:39: medium: postcondition might fail, cannot prove s(J) = Nums''last
+    (e.g. when J = 8 and s = (8 => 1, others => Nums''Last)) [possible explanation:
+    loop at loops.adb:7 should mention s in a loop invariant][#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    8 - Loops\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-25T13:14:57.560000'
+'2021-03-25T13:19:25.891000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 8 - Loops\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    loops.ads:10:39: medium: postcondition might fail, cannot prove s(J) = Nums''last
+    (e.g. when J = 8 and s = (8 => 1, others => Nums''Last)) [possible explanation:
+    loop at loops.adb:7 should mention s in a loop invariant][#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    8 - Loops\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-25T13:19:25.891000'
+'2021-03-25T13:25:22.112000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week 8 - Loops\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\Lectures\Week
+    8 - Loops\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-25T13:25:22.112000'

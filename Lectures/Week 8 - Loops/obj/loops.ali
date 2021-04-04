@@ -1,0 +1,46 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U loops%b		loops.adb		c9e054f8 NE OO PK IL
+Z interfaces%s		interfac.ads		interfac.ali
+
+U loops%s		loops.ads		a1fbf459 EE NE OO PK IL
+
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D loops.ads		20210325134722 a1fbf459 loops%s
+D loops.adb		20210325134646 681ba0a1 loops%b
+D system.ads		20200228061810 32a08138 system%s
+G a e
+G c Z s b [increase loops 11 14 none]
+G c Z s b [chg loops 14 13 none]
+G c Z s b [cease loops 16 14 none]
+G c Z s b [ceaseagain loops 18 14 none]
+G c Z s s [TslotsBIP loops 7 4 none]
+X 2 loops.ads
+1K9*loops 20l5 20e10 3|1b14 49l5 49t10
+3I9*Nums<short_short_integer> 7r34 12r46 3|8r20 11r47 13r20
+5I9*Indx<short_short_integer> 7r25 3|5r13
+7A9*Slots(3I9)<5I9> 11r35 3|3r35
+9I9*Eights<short_short_integer> 14r22 14r37 16r32 18r37 3|16r22 16r37 31r32
+. 40r37
+11U14*Increase 11=24 3|3b14 14l8 14t16
+11a24 s{7A9} 12r28 12r39 3|3b24 5r21 7r19 8m10 11r40 13m7 13r9
+12i23 J<short_short_integer> 12r41
+14V13*Chg{9I9} 14>18 3|16b13 29l8 29t11 34s18 35s15 44s15
+14i18 x{9I9} 3|16b18 19r12
+16U14*Cease 16=21 3|31b14 37l8 37t13
+16i21 x{9I9} 3|31b21 34r14 34r22 35m10 35r19
+18U14*CeaseAgain 18=26 3|40b14 46l8 46t18
+18i26 x{9I9} 3|40b26 44m10 44r19
+X 3 loops.adb
+5i7 Pos{2|5I9} 7r13 8r12 9m10 9r17 11r30
+11i21 J<short_short_integer> 11r42
+43i11 I{integer}
+

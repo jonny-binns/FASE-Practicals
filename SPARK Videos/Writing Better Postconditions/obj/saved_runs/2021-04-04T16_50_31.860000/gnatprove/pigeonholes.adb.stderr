@@ -1,0 +1,1 @@
+pigeonholes.ads:14:43: medium: postcondition might fail, cannot prove CountBirds'Result = d'length (e.g. when CountBirds'Result = 0)[#0]
