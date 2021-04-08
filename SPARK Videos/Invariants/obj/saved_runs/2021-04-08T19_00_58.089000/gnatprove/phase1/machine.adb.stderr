@@ -1,0 +1,2 @@
+machine.adb:8:21: "is" should be ":="
+machine.adb:11:04: "end;" expected for "begin" at line 9

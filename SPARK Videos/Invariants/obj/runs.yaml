@@ -1,0 +1,127 @@
+'2021-04-08T18:58:52.665000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Invariants\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    machine.ads:8:07: expression function must be enclosed in parentheses
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-08T18:58:52.665000'
+'2021-04-08T18:59:05.313000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Invariants\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    machine.ads:11:42: medium: "serving" must be a Proof_In as it is only used in
+    assertions (SPARK RM 6.1.4(18))[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Invariants\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-08T18:59:05.313000'
+'2021-04-08T19:00:58.089000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Invariants\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    machine.adb:8:21: "is" should be ":="
+
+    machine.adb:11:04: "end;" expected for "begin" at line 9
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-08T19:00:58.089000'
+'2021-04-08T19:01:20.257000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Invariants\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    machine.ads:18:23: "''" should be ";"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-08T19:01:20.257000'
+'2021-04-08T19:01:28.353000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Invariants\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    machine.ads:11:42: medium: "serving" must be a Proof_In as it is only used in
+    assertions (SPARK RM 6.1.4(18))[#1]
+
+    machine.ads:16:45: medium: "next" must be a Proof_In as it is only used in assertions
+    (SPARK RM 6.1.4(18))[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Invariants\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-08T19:01:28.353000'
+'2021-04-08T19:05:29.635000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Invariants\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    machine.ads:11:42: medium: "serving" must be a Proof_In as it is only used in
+    assertions (SPARK RM 6.1.4(18))[#0]
+
+    machine.ads:16:45: medium: "next" must be a Proof_In as it is only used in assertions
+    (SPARK RM 6.1.4(18))[#2]
+
+    machine.ads:21:42: medium: "serving" must be a Proof_In as it is only used in
+    assertions (SPARK RM 6.1.4(18))[#1]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Invariants\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-08T19:05:29.635000'
+'2021-04-08T19:07:51.624000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Invariants\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    machine.ads:11:42: medium: "serving" must be a Proof_In as it is only used in
+    assertions (SPARK RM 6.1.4(18))[#0]
+
+    machine.ads:16:45: medium: "next" must be a Proof_In as it is only used in assertions
+    (SPARK RM 6.1.4(18))[#2]
+
+    machine.ads:21:42: medium: "serving" must be a Proof_In as it is only used in
+    assertions (SPARK RM 6.1.4(18))[#1]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Invariants\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-08T19:07:51.624000'
