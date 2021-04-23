@@ -1,0 +1,211 @@
+'2021-04-22T17:26:02.810000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-22T17:26:02.810000'
+'2021-04-22T17:34:33.033000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    toad.ads:4:15: "Sausage" is undefined
+
+    toad.ads:5:19: "Mixture" is undefined
+
+    toad.ads:9:33: "Meat" is undefined (more references follow)
+
+    toad.ads:9:60: "Spicy" is undefined (more references follow)
+
+    toad.ads:12:33: "Normal" is undefined
+
+    toad.ads:13:34: "Mild" is undefined (more references follow)
+
+    toad.ads:13:63: "GlutenFree" is undefined (more references follow)
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-22T17:34:33.033000'
+'2021-04-22T17:35:52.632000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-22T17:35:52.632000'
+'2021-04-22T17:38:29.775000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    toad.ads:7:15: "Sausage" is not visible
+
+    toad.ads:7:15: non-visible declaration at sausages.ads:6
+
+    toad.ads:8:19: "Mixture" is not visible
+
+    toad.ads:8:19: non-visible declaration at batter.ads:6
+
+    toad.ads:12:33: "Meat" is not visible (more references follow)
+
+    toad.ads:12:33: non-visible declaration at sausages.ads:3
+
+    toad.ads:12:60: "Spicy" is not visible (more references follow)
+
+    toad.ads:12:60: non-visible declaration at sausages.ads:4
+
+    toad.ads:15:33: "Normal" is not visible
+
+    toad.ads:15:33: non-visible declaration at batter.ads:3
+
+    toad.ads:16:34: "Mild" is not visible (more references follow)
+
+    toad.ads:16:34: non-visible declaration at sausages.ads:4
+
+    toad.ads:16:63: "GlutenFree" is not visible (more references follow)
+
+    toad.ads:16:63: non-visible declaration at batter.ads:3
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-22T17:38:29.775000'
+'2021-04-22T17:39:17.088000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    toad.ads:11:31: high: "t.Yorkshire.Flour" is not initialized in "SellToKababShop"[#0]
+
+    toad.ads:11:31: high: "t.Yorkshire.Egg" is not initialized in "SellToKababShop"[#1]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-22T17:39:17.088000'
+'2021-04-22T17:40:36.403000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-22T17:40:36.403000'
+'2021-04-22T17:42:27.015000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    toad.adb:8:07: medium: precondition might fail, cannot prove s.Filling = Veg [possible
+    explanation: subprogram at toad.ads:11 should mention t in a precondition][#0]
+
+    toad.ads:12:14: medium: postcondition might fail, cannot prove t.Banger.Filling
+    = Meat (e.g. when t = (Banger => (Filling => Veg, Rating => Spicy), Yorkshire
+    => (Flour => GlutenFree, Egg => Duck)))[#1]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-22T17:42:27.015000'
+'2021-04-22T17:43:46.490000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    toad.ads:13:14: medium: postcondition might fail, cannot prove t.Banger.Filling
+    = Meat (e.g. when t = (Banger => (Filling => Veg, Rating => Spicy), Yorkshire
+    => (Flour => GlutenFree, Egg => Duck)))[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-22T17:43:46.490000'
+'2021-04-22T17:44:00.398000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    toad.ads:13:14: medium: postcondition might fail, cannot prove t.Banger.Filling
+    = Meat (e.g. when t = (Banger => (Filling => Veg, Rating => Spicy), Yorkshire
+    => (Flour => GlutenFree, Egg => Duck)))[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-22T17:44:00.398000'
+'2021-04-22T17:46:17.051000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-22T17:46:17.051000'
+'2021-04-22T17:47:39.321000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Inheritance\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-22T17:47:39.321000'

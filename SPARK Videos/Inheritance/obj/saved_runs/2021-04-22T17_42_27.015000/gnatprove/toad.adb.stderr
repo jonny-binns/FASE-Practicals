@@ -1,0 +1,2 @@
+toad.adb:8:07: medium: precondition might fail, cannot prove s.Filling = Veg [possible explanation: subprogram at toad.ads:11 should mention t in a precondition][#0]
+toad.ads:12:14: medium: postcondition might fail, cannot prove t.Banger.Filling = Meat (e.g. when t = (Banger => (Filling => Veg, Rating => Spicy), Yorkshire => (Flour => GlutenFree, Egg => Duck)))[#1]

@@ -1,0 +1,7 @@
+toad.ads:4:15: "Sausage" is undefined
+toad.ads:5:19: "Mixture" is undefined
+toad.ads:9:33: "Meat" is undefined (more references follow)
+toad.ads:9:60: "Spicy" is undefined (more references follow)
+toad.ads:12:33: "Normal" is undefined
+toad.ads:13:34: "Mild" is undefined (more references follow)
+toad.ads:13:63: "GlutenFree" is undefined (more references follow)

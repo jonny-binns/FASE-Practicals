@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\contractcases.gpr</vfs_file>
+    <file_marker column=" 1" line=" 8" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\contractcases.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\src\pigeonholes.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\contractcases.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\src\pigeonholes.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 47" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\contractcases.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\src\pigeonholes.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 24" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\contractcases.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\src\pigeonholes.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 88" line=" 26" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\contractcases.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\src\pigeonholes.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 6" line=" 25" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\contractcases.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\src\pigeonholes.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

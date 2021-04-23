@@ -1,0 +1,70 @@
+V "GNAT Lib v2020"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U toad%b		toad.adb		22aaaab7 OO PK
+W batter%s		batter.adb		batter.ali
+W sausages%s		sausages.adb		sausages.ali
+
+U toad%s		toad.ads		0f6e6188 OO PK
+W batter%s		batter.adb		batter.ali
+W sausages%s		sausages.adb		sausages.ali
+
+D batter.ads		20210422161410 77112f5c batter%s
+D sausages.ads		20210422162122 fdf47e8d sausages%s
+D system.ads		20200228061810 32a08138 system%s
+D toad.ads		20210422164020 858b3059 toad%s
+D toad.adb		20210422164222 2dc4cb3f toad%b
+G a Z
+X 1 batter.ads
+1K9*Batter 17e11 4|2w6 2r18 5|2w6 2r18
+3n16*GlutenFree{3E9} 4|16r63 5|15r28
+3n28*Normal{3E9} 4|15r33
+6R9*Mixture 9e14 4|8r19
+7e7*Flour{3E9} 4|15r25 16r55 5|15m19
+X 2 sausages.ads
+1K9*Sausages 21e13 4|1w6 1r20 5|1w6 1r20
+3n20*Meat{3E9} 4|12r33
+4n19*Spicy{4E9} 4|12r60
+4n25*Mild{4E9} 4|16r34 5|14r26
+6R9*Sausage 9e14 4|7r15
+7e7*Filling{3E9} 4|12r23
+8e7*Rating{4E9} 4|12r51 16r25 5|14m16
+11U14*Contaminate 5|8s7
+15U14*Varmere 5|9s7
+X 4 toad.ads
+4K9*Toad 18l5 18e9 5|4b14 18l5 18t9
+6R9*ToadInTheHole 9e14 11r42 14r48 5|6r42 12r48
+7r7*Banger{2|6R9} 12r16 12r44 16r18 5|8m21 9m17 14m9
+8r7*Yorkshire{1|6R9} 15r15 16r45 5|15m9
+11U14*SellToKababShop 11=31 5|6b14 10l8 10t23
+11r31 t{6R9} 12r14 12r42 5|6b31 8m19 8r19 9m15 9r15
+14U14*MakeFitForNursingHome 14=37 5|12b14 16l8 16t29
+14r37 t{6R9} 15r13 16r16 16r43 5|12b37 14m7 15m7
+
+QQ SPARKVERSION SPARK Community 2020 (20200429)
+GG EK_DIRECT_CALLS toad__selltokababshop 2 sausages__contaminate sausages__varmere
+GG EK_GLOBALS toad__selltokababshop local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 toad proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 2 sausages__contaminate sausages__varmere calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS toad__makefitfornursinghome 0
+GG EK_GLOBALS toad__makefitfornursinghome local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 toad proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS toad 0
+GG EK_GLOBALS toad local FALSE E_PACKAGE TRUE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE batter__everyday FALSE FALSE FALSE FALSE TRUE batter VISIBLE_PART
+GG EK_FLOW_SCOPE toad__selltokababshop FALSE FALSE FALSE FALSE TRUE toad VISIBLE_PART
+GG EK_FLOW_SCOPE sausages__varmere FALSE FALSE FALSE FALSE TRUE sausages VISIBLE_PART
+GG EK_FLOW_SCOPE toad TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE batter TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE sausages__contaminate FALSE FALSE FALSE FALSE TRUE sausages VISIBLE_PART
+GG EK_FLOW_SCOPE batter__makesafe FALSE FALSE FALSE FALSE TRUE batter VISIBLE_PART
+GG EK_FLOW_SCOPE sausages__kaldere FALSE FALSE FALSE FALSE TRUE sausages VISIBLE_PART
+GG EK_FLOW_SCOPE sausages TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE toad__makefitfornursinghome FALSE FALSE FALSE FALSE TRUE toad VISIBLE_PART
+GG EK_END_MARKER

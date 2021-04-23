@@ -1,0 +1,66 @@
+'2021-04-09T14:52:10.869000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    pigeonholes.ads:24:14: medium: postcondition might fail, cannot prove d(birdIndex''Result)
+    = b (e.g. when b = Pigeon and birdIndex''Result = 5 and d = (1 => Pigeon, others
+    => Dove))[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract
+    Cases\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-09T14:52:10.869000'
+'2021-04-09T14:53:22.779000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract
+    Cases\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-09T14:53:22.779000'
+'2021-04-09T14:55:57.878000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract
+    Cases\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-09T14:55:57.878000'
+'2021-04-09T14:57:08.538000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract Cases\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    pigeonholes.ads:25:06: medium: contract cases might not be complete[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Contract
+    Cases\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-09T14:57:08.538000'

@@ -1,0 +1,63 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatA
+A -gnata
+A -gnato
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		49157457 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W cars%s		cars.adb		cars.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D cars.ads		20210422151220 87af1ce7 cars%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D main.adb		20210422151650 604ebddd main%b
+D system.ads		20200228061810 32a08138 system%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-imenne.ads		20200228061810 614c06c0 system.img_enum_new%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 4 11 none]
+G r c none [main standard 4 11 none] [startcar cars 14 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|2r6 2r23
+X 6 a-textio.ads
+57K13*Text_IO 727e16 11|2w10 2r27
+508U14*Put_Line 11|6s4 7s4 8s4 9s4 10s4 12s4 13s4
+X 8 cars.ads
+1K9*Cars 20e9 11|1w6 1r16
+8e7*CarKey{3E9} 11|7r23
+9e7*Ignition{5E9} 11|9r23 13r23
+12r4*BatMobile{7R9} 11|7r13 9r13 13r13
+14U14*StartCar 11|11s4
+X 11 main.adb
+4U11*Main 4b11 16l5 16t9
+

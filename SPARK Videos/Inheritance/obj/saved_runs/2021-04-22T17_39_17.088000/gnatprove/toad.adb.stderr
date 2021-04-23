@@ -1,0 +1,2 @@
+toad.ads:11:31: high: "t.Yorkshire.Flour" is not initialized in "SellToKababShop"[#0]
+toad.ads:11:31: high: "t.Yorkshire.Egg" is not initialized in "SellToKababShop"[#1]

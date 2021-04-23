@@ -1,0 +1,1 @@
+toad.ads:13:14: medium: postcondition might fail, cannot prove t.Banger.Filling = Meat (e.g. when t = (Banger => (Filling => Veg, Rating => Spicy), Yorkshire => (Flour => GlutenFree, Egg => Duck)))[#0]

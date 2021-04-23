@@ -1,0 +1,81 @@
+{
+  "spark": [
+    {
+      "name": "Counters.AddGuest",
+      "sloc": [
+        {
+          "file": "counters.ads",
+          "line": 14
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Counters.FireOn",
+      "sloc": [
+        {
+          "file": "counters.ads",
+          "line": 17
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Counters.FireOff",
+      "sloc": [
+        {
+          "file": "counters.ads",
+          "line": 20
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Counters.WarningLight",
+      "sloc": [
+        {
+          "file": "counters.ads",
+          "line": 23
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Counters.EmergencyStop",
+      "sloc": [
+        {
+          "file": "counters.ads",
+          "line": 26
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Counters.IncreaseTemp",
+      "sloc": [
+        {
+          "file": "counters.ads",
+          "line": 29
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+  },
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "codepeer results": 1.05999997686013E-05,
+    "init_why_sections": 5.71399985346943E-04,
+    "globals/properties (advanced)": 1.92054994404316E-02,
+    "flow analysis": 2.49300006544217E-04,
+    "marking": 5.06279990077019E-03,
+    "translation of standard": 4.08250000327826E-03,
+    "globals (basic)": 1.33231002837420E-02
+  }
+}

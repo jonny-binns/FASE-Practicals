@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Using Main Files\mainfiles.gpr</vfs_file>
+    <file_marker column=" 10" line=" 15" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Using Main Files\mainfiles.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Using Main Files\src\cars.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Using Main Files\mainfiles.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Using Main Files\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 10" line=" 15" >
+      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Using Main Files\mainfiles.gpr</vfs_project>
+      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Using Main Files\src\cars.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

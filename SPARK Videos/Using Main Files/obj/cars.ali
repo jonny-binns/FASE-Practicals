@@ -1,0 +1,42 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -gnata
+A -gnato
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U cars%b		cars.adb		d484ab2a NE OO PK KM
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+U cars%s		cars.ads		87af1ce7 EE NE OO PK
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D cars.ads		20210422151220 87af1ce7 cars%s
+D cars.adb		20210422152624 532bb7cd cars%b
+D system.ads		20200228061810 32a08138 system%s
+D s-assert.ads		20200228061810 cd8d2c94 system.assertions%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+G a e
+G c Z s s [carIP cars 7 9 none]
+G c Z s b [startcar cars 14 14 none]
+X 3 cars.ads
+1K9*Cars 20l5 20e9 4|1b14 15l5 15t9
+3E9*Key 3e33 8r16
+3n17*Present{3E9} 16r32
+3n26*Absent{3E9} 12r34
+5E9*Engine 5e28 9r18
+5n20*On{5E9} 17r35 4|9r29
+5n24*Off{5E9} 12r54
+7R9*car 10e14 12r16
+8e7*CarKey{3E9} 12m24 16r23
+9e7*Ignition{5E9} 12m42 17r24 4|9m17
+12r4*BatMobile{7R9} 15r27 16r13 17r14 4|9m7
+14U14*StartCar 4|3b14 11l8 11t16
+

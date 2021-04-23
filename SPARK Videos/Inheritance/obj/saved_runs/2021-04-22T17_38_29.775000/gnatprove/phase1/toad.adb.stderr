@@ -1,0 +1,14 @@
+toad.ads:7:15: "Sausage" is not visible
+toad.ads:7:15: non-visible declaration at sausages.ads:6
+toad.ads:8:19: "Mixture" is not visible
+toad.ads:8:19: non-visible declaration at batter.ads:6
+toad.ads:12:33: "Meat" is not visible (more references follow)
+toad.ads:12:33: non-visible declaration at sausages.ads:3
+toad.ads:12:60: "Spicy" is not visible (more references follow)
+toad.ads:12:60: non-visible declaration at sausages.ads:4
+toad.ads:15:33: "Normal" is not visible
+toad.ads:15:33: non-visible declaration at batter.ads:3
+toad.ads:16:34: "Mild" is not visible (more references follow)
+toad.ads:16:34: non-visible declaration at sausages.ads:4
+toad.ads:16:63: "GlutenFree" is not visible (more references follow)
+toad.ads:16:63: non-visible declaration at batter.ads:3

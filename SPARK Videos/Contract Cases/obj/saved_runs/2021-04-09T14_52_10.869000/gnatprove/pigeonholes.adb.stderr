@@ -1,0 +1,1 @@
+pigeonholes.ads:24:14: medium: postcondition might fail, cannot prove d(birdIndex'Result) = b (e.g. when b = Pigeon and birdIndex'Result = 5 and d = (1 => Pigeon, others => Dove))[#0]
