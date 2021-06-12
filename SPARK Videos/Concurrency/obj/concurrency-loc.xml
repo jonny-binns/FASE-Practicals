@@ -2,15 +2,11 @@
 <Locations >
   <Project>
     <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Concurrency\concurrency.gpr</vfs_file>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 1" line=" 5" >
       <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Concurrency\concurrency.gpr</vfs_project>
       <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Concurrency\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 62" >
-      <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Concurrency\concurrency.gpr</vfs_project>
-      <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Concurrency\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 100" line=" 20" >
+    <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Concurrency\concurrency.gpr</vfs_project>
       <vfs_file>C:\Users\Jonny\Documents\GitHub\FASE-Practicals\SPARK Videos\Concurrency\src\counters.adb</vfs_file>
     </file_marker>
